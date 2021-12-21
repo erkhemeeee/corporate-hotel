@@ -1,0 +1,278 @@
+@font-face{
+    font-family: 'constantia';
+    src: url('./font/constan.ttf');
+}
+body{
+    font-family: 'constantia';
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+  .swiper-button-prev {
+      margin-left: 100px;
+      color: #fff;
+  }
+  .swiper-button-next{
+      margin-right: 100px;
+      color: #fff;
+  }
+  .swiper-pagination{
+      margin-right: 50px;
+  }
+
+  .slide1{
+      background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./img/family_room.jpg');
+      background-size: cover;
+      background-repeat: none;
+  }
+  .slide2{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./img/classic_room.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+.slide3{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./img/semi_lux.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    color: #fff;
+    padding: 0.5% 0;
+    text-transform: uppercase;
+}
+.logo{
+    width: 7%;
+    margin-left: 5%;
+
+}
+.logo img{
+    width: 100%;
+}
+.list {
+    width: 40%;
+    margin-left: 5%;
+}
+.list ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.weather{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -5%;
+}
+.home img{
+    width: 15%;
+}
+.roomSwiper{
+    width: 65%;
+    height: 50vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.room{
+    position: relative;
+    width: 100%;
+    background:linear-gradient(rgba(211, 211, 211, 0.856), rgba(236, 236, 236, 0.863)), url('./img/back_corp.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.room h1, .room p{
+    width: 65%;
+    margin: 2% auto;
+    margin-top: 0;
+}
+.room h1{
+    padding-top: 2%;
+    text-transform: uppercase;
+}
+.room span{
+    color: #B58E3E;
+}
+.room .roomSwiper .swiper-button-prev{
+    color: rgb(255, 255, 255);
+}
+.room .roomSwiper .swiper-button-next{
+    color: rgb(255, 255, 255);
+}
+.roomSwiper .swiper-slide .image{
+    width: 100%;
+}
+.image img{
+    width: 92%;
+}
+.room .details{
+    background-color: #eee;
+    width: 92%;
+}
+.details h1{
+    color: #B58E3E;
+    font-size: 20px;
+}
+.price{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.price p{
+    width: 50%;
+    margin: 10%;
+}
+.price button{
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-size: 11px;
+    background-color: #0F304F;
+    color: #fff;
+    border: none;
+}
+.back-color{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, #0F304F 0%, #2B2927 100%);
+    top: 50%;
+}
+.service-about{
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    background:linear-gradient(rgba(211, 211, 211, 0.856), rgba(236, 236, 236, 0.863)), url('./img/back_corp.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service h1, .service p{
+    width: 65%;
+    margin: 2% auto;
+    margin-top: 0;
+}
+.service h1{
+    padding-top: 2%;
+    text-transform: uppercase;
+}
+.service span{
+    color: #B58E3E;
+}
+.services{
+    width: 85%;
+    height: 50vh;
+    border: 1px solid black;
+    margin-left: 9%;
+    display: flex;
+}
+.select-service{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.services .back1{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('./img/bar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.services .back2{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('./img/spa_salon.jpg');
+    background-size: cover;
+    background-position: center;
+}.services .back3{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('./img/healt_club.jpg');
+    background-size: cover;
+}.services .back4{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('./img/event_hall.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-history{
+    width: 100%;
+}
+.about-title h1, .about-title p{
+    width: 65%;
+    margin: 2% auto;
+    margin-top: 0;
+}
+.about-title h1{
+    padding-top: 2%;
+    text-transform: uppercase;
+}
+.about-title span{
+    color: #B58E3E;
+}
+.detail-text{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.detail-text .history-detail, .detail-text .about-detail{
+    width: 50%;
+    padding: 5%;
+    text-align: justify;
+}
+
+.detail-text span{
+    color: #B58E3E;
+}
+.detail-text p{
+    font-size: 16px;
+    line-height: 1.2;
+}
+.sign{
+    width: 100%;
+    display: flex;
+}
+.sign img{
+    width: 80%;
+}
+.sign .role{
+    width: 80%;
+}
+.about-title-text{
+    position: relative;
+}
+.about-title-text h1{
+    top: 0;
+    z-index: 0;
+    font-size: 120px;
+    color: #F6F7FB;
+    margin: 0;
+}
+.about-title-text h2{
+    position: absolute;
+    top: 35%;
+
+}
